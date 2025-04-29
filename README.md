@@ -4,7 +4,7 @@ Exercícios práticos desenvolvidos durante o Módulo 03 do curso de HTML5 e CSS
 
 ## 📚 Conteúdos abordados
 - Estrutura básica de tabelas em HTML
-- Uso de `<thead>`, `<tbody>`, `<tfoot>`, `scope` e `caption`
+- Uso de `<thead>`, `tbody`, `tfoot`, `scope` e `caption`
 - Estilização com CSS:
   - Efeito zebrado (striped rows)
   - Cabeçalhos fixos
