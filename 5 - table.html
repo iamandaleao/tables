@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      caption {
+        font-size: 1.3em;
+        font-weight: bold;
+        padding: 10px;
+      }
+
+      th,
+      td {
+        border: 1px solid gray;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+      <caption>
+        Lista de Compras
+      </caption>
+      <thead>
+        <tr>
+          <th>Categoria</th>
+          <th>total</th>
+          <th colspan="3">Lista</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th rowspan="3">Verduras</th>
+          <td>3</td>
+          <td>espinafre</td>
+          <td>alface</td>
+          <td>rucula</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>couve</td>
+          <td>agrião</td>
+          <td>acelga</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>escarola</td>
+          <td>chicória</td>
+          <td>repolho</td>
+        </tr>
+        <tr>
+          <th rowspan="3">frutas</th>
+          <td>10</td>
+          <td>abacate</td>
+          <td>uva</td>
+          <td>mamão</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>goiaba</td>
+          <td>amora</td>
+          <td>abacaxi</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>laranja</td>
+          <td>kiwi</td>
+          <td>banana</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
